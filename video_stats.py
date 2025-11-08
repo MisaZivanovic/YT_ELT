@@ -3,7 +3,6 @@ import json
 import os
 from dotenv import load_dotenv
 
-# API_KEY = "AIzaSyAdP1uoaBgEnlj5Mwp-oVQOD76xQYTRVrU"
 load_dotenv(dotenv_path="./.env")
 API_KEY = os.getenv("API_KEY")
 CHANNEL_HANDLE = "MrBeast"
